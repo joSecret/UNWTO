@@ -6,6 +6,6 @@ import sitemap from '@astrojs/sitemap';
 // https://astro.build/config
 export default defineConfig({
 	site: 'https://joSecret.github.io',
-  base: '/jo-base-theme',
+  base: '/unwto',
 	integrations: [mdx(), sitemap()],
 });
